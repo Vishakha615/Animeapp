@@ -113,6 +113,18 @@ st.sidebar.markdown(""" <h5>✨ Quote </h5>""",unsafe_allow_html=True)
 st.sidebar.info("Every anime tells a story")
 
 
+def get_name_by_index (i):
+    if i<=len(df) and i>0:
+        return df.loc[i,"name"]
+    return ""
+
+def get_index_by_name(name):
+    user_name = name.strip().lower().replace(" ","").replace("-","")
+    match = df[df["name"].str.lower().str.replace(" ","").str.replace("-","") == user_name]
+    if not match.empty:
+        return match.index[0]
+    return -1
+
 
 movie = st.selectbox("Enter the name of anime movie",sorted(df["name"]))
         
