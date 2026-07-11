@@ -76,7 +76,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown(""" 
-    <h2 style="color:white; font-size:35px; margin-bottom:22px; align-text:center;"><b>🎌 Anime Recommendation System</b></h2>
+    <h1 style="color:white; font-size:30px; margin-bottom:22px; align-text:center;"><b>🎌 Anime Recommendation System</b></h1>
             """,unsafe_allow_html=True)
 
 
