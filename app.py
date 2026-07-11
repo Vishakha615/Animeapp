@@ -298,7 +298,7 @@ if st.button("Recommend"):
 st.divider()
 
 st.markdown(
-    "<h4 style='color:white;  '><b>🔥 Popular Anime</b></h4>",
+    "<h4 style='color:white; margin-top:20px; '><b>🔥 Popular Anime</b></h4>",
     unsafe_allow_html=True)
 
 
@@ -362,7 +362,7 @@ with col4:
         st.image("https://tse3.mm.bing.net/th/id/OIP.rbUz2bh1jr-uHrNoZBhEgQHaKj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3")
         
 
-st.markdown(""" <h4 style="color:white; margin-top: 45px; margin-bottom: 20px;">⭐ Top Rated  </h4>""",unsafe_allow_html=True)
+st.markdown(""" <h4 style="color:white; margin-top: 50px; margin-bottom: 30px;">⭐ Top Rated  </h4>""",unsafe_allow_html=True)
 
 col1, col2, col3, col4 = st.columns(4)
 
