@@ -103,7 +103,7 @@ st.markdown(
 
 st.sidebar.title("-- AnimeVerse --")
 st.sidebar.markdown(""" <h5><u>Today's Anime </u></h5>""",unsafe_allow_html=True)
-st.sidebar.markdown(""" <h6>    🎬 Spirited Away  - ⭐ 8.93</h6>""",unsafe_allow_html=True)
+st.sidebar.markdown(""" <h6>    🎬 Spirited Away  - ⭐ 9.90</h6>""",unsafe_allow_html=True)
 st.sidebar.markdown(""" <h5>👩‍💻 Developer</h5>""",unsafe_allow_html=True)
 st.sidebar.markdown(""" <h6> Vishakha Nikam</h6>""",unsafe_allow_html=True)
 
