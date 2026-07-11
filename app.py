@@ -6,6 +6,9 @@ import pickle
 
 df = pd.read_csv("Cleaned_data.csv")
 
+model = pickle.load(open("pickle.pkl", "rb"))
+
+
 st.markdown(""" <style>
     .stApp{
         background: linear-gradient(to top, #000000, #161C47);
